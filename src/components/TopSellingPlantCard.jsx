@@ -2,7 +2,7 @@ import React from 'react';
 
 export const TopSellingPlantCard=({ title, price, description, imageUrl, highlight }) => {
   return (
-    <div className={`glass-panel rounded-3xl p-6 pt-16 relative flex flex-col transition-all duration-300 hover:-translate-y-2 ${highlight ? 'border-green-500/50 shadow-[0_0_15px_rgba(34,197,94,0.2)]' : ''}`}>
+    <div className={`glass-panel rounded-3xl p-6 pt-16 relative flex flex-col transition-all duration-300 `}>
       <div className="absolute -top-16 left-1/2 -translate-x-1/2 w-40 h-40 flex items-center justify-center">
         <div className="absolute inset-0 bg-green-500/10 blur-[30px] rounded-full"></div>
         <img src={imageUrl} alt={title} className="w-full h-full object-contain drop-shadow-2xl z-10 hover:scale-110 transition-transform duration-500" />

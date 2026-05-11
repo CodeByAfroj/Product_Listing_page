@@ -7,11 +7,11 @@ import PLANT1 from '../assets/plant1.png';
 export const HeroBanner = () => {
   return (
     <>
-        <div className="relative w-full pt-8 min-h-screen overflow-hidden md:overflow-visible">
+        <div className="relative w-full pt-8 mx-auto min-h-screen overflow-hidden md:overflow-visible">
       <img
         src={mainPlantImage}
         alt="Background"
-        className="absolute top-[-90px] md:top-[-125px] left-1/2 -translate-x-1/2 w-[200%] md:w-[1400px] max-w-none h-auto md:h-[2000px] object-cover opacity-100 z-0 pointer-events-none"
+        className="absolute top-[-90px] md:top-[-125px] left-1/2 -translate-x-1/2 w-[100%] md:w-[1400px] max-w-none h-auto md:h-[2000px] object-cover opacity-100 z-0 pointer-events-none"
       />
 
       <div className="relative z-20 max-w-7xl mx-auto px-4 md:px-8 pt-8 md:pt-16 pb-16">
@@ -48,7 +48,7 @@ export const HeroBanner = () => {
               <img
                 src={PLANT1}
                 alt="Indoor Plant"
-                className="w-[200px] md:w-[280px] h-auto -mt-10"
+                className="w-[200px] md:w-[380px] h-auto -mt-25"
               />
             </div>
 

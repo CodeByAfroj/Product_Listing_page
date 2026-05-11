@@ -53,7 +53,7 @@ function App() {
           <HeroBanner />
           
           <div className="mt-32 px-4 md:px-8">
-            <SectionTitle>Our Trendy plants</SectionTitle>
+            <SectionTitle className="bg-black"> Our Trendy plants </SectionTitle>
             
             <div className="mt-16 flex flex-col gap-24">
               <PlantCard 
@@ -75,7 +75,7 @@ function App() {
             </div>
           </div>
 
-          <div className="mt-40 px-4 md:px-8">
+          <div className="mt-60 px-4 md:px-8">
             <SectionTitle>Our Top Selling Plants</SectionTitle>
             <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-24 max-w-5xl mx-auto">
               <TopSellingPlantCard
