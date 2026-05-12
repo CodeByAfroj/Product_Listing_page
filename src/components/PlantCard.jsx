@@ -3,7 +3,7 @@ import { Button } from './Button';
 
 export const PlantCard= ({ title, price, description, imageUrl, orientation = 'left', imageClassName = '' }) => {
   return (
-     <div className={` glass-panel rounded-6px md:rounded-[80px] px-6 py-2 sm:px-8 sm:py-3 md:px-12 md:py-3 flex flex-col md:flex-row gap-4 md:gap-8 items-center ${orientation === 'right' ? 'md:flex-row-reverse' : ''} max-w-6xl w-full mx-auto  relative overflow-visible`}>
+     <div className={` glass-panel rounded-[50px] md:rounded-[80px] px-6 py-2 sm:px-8 sm:py-3 md:px-12 md:py-3 flex flex-col md:flex-row gap-4 md:gap-8 items-center ${orientation === 'right' ? 'md:flex-row-reverse' : ''} max-w-6xl w-full mx-auto   relative overflow-visible`}>
 
       <div className="w-full md:w-1/2 flex justify-center relative">
         <img

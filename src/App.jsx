@@ -41,19 +41,28 @@ import { Footer } from './components/Footer';
 import DESK1 from "./assets/desk.png";
 import DESK2 from "./assets/desk2.png";
 
+import TOP1 from "./assets/topSelling/first.png";
+import TOP2 from "./assets/topSelling/second.png";
+import TOP3 from "./assets/topSelling/third.png";
+import TOP4 from "./assets/topSelling/fourth.png";
+import TOP5 from "./assets/topSelling/fifth.png";
+import TOP6 from "./assets/topSelling/sixth.png";
+
+
 function App() {
   return (
-    <div className="min-h-screen relative font-sans text-white overflow-hidden bg-[#08100a]">
-      <div className="bg-crosshair opacity-30"></div>
-      
+    <>
+  
+    <div className="min-h-screen relative font-sans text-white overflow-hidden bg-[#1B2316]">
+      <div className=" opacity-30"></div>
       <div className="relative z-10 max-w-[1440px] mx-auto">
         <Navbar />
         
         <main>
           <HeroBanner />
           
-          <div className="mt-32 px-4 md:px-8">
-            <SectionTitle className="bg-black"> Our Trendy plants </SectionTitle>
+          <div className=" min-md:mt-32 px-4 md:px-8">
+            <SectionTitle className=""> Our Trendy plants </SectionTitle>
             
             <div className="mt-16 flex flex-col gap-24">
               <PlantCard 
@@ -82,38 +91,38 @@ function App() {
                 title="Aglaonema plant"
                 price="Rs. 300/-"
                 description="The Aglaonema plant, commonly known as Chinese Evergreen known for its attractive foliage and ease of care"
-                imageUrl="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&q=80"
+                imageUrl={TOP1}
               />
               <TopSellingPlantCard
                 title="Plantain Lilies"
                 price="Rs. 380/-"
                 description="Hostas are primarily grown for their lush, decorative leaves, which come in a wide variety of shapes, sizes,"
-                imageUrl="https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400&q=80"
+                imageUrl={TOP2} 
               />
               <TopSellingPlantCard
                 title="Cactus"
                 price="Rs. 259/-"
                 description="It is known for their ability to thrive in arid environments"
-                imageUrl="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=400&q=80"
+                imageUrl={TOP3} 
                 highlight={true}
               />
               <TopSellingPlantCard
                 title="Swiss cheese Plant"
                 price="Rs. 400/-"
                 description="It is a popular tropical houseplant known for its distinctive, perforated leaves"
-                imageUrl="https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=400&q=80"
+                imageUrl={TOP4} 
               />
               <TopSellingPlantCard
                 title="Sansevieria plant"
                 price="Rs. 450/-"
                 description="It is a popular indoor plant admired for its striking appearance and low-maintenance nature."
-                imageUrl="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=400&q=80"
+                imageUrl={TOP5}
               />
               <TopSellingPlantCard
                 title="Agave plant"
                 price="Rs. 359/-"
                 description="The Agave plant is a genus of succulent plants known for their striking rosette of thick, fleshy leaves and architectural forms."
-                imageUrl="https://images.unsplash.com/photo-1520302630591-fd1c66edc19d?w=400&q=80"
+                imageUrl={TOP6}
                 highlight={true}
               />
             </div>
@@ -131,7 +140,7 @@ function App() {
                 name="Lula Rolfson"
                 avatar="https://i.pravatar.cc/100?img=5"
                 review="Each one has its own unique charm and personality, and they've already started brightening up my space. The vibrant colors and fresh greenery make such a huge difference in my home."
-                className="md:-mt-8"
+                className=""
               />
               <ReviewCard
                 name="Carol Huels"
@@ -151,6 +160,8 @@ function App() {
         <Footer />
       </div>
     </div>
+    
+    </>
   );
 }
 

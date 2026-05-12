@@ -20,7 +20,7 @@ export const HeroBanner = () => {
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start gap-12 lg:gap-0">
 
        
-          <div className="max-w-xl text-center lg:text-left mt-0 lg:mt-12">
+          <div className="max-w-xl max-sm:mt-40 text-center lg:text-left mt-0 lg:mt-12">
             <div className="flex flex-col gap-6 max-w-xl mx-auto lg:mx-0">
               <h1 className="text-5xl md:text-6xl lg:text-8xl font-semibold tracking-tighter leading-[1.1] opacity-70 text-white">
                 Earth's Exhale
@@ -41,22 +41,15 @@ export const HeroBanner = () => {
           </div>
 
      
-          <div className="relative w-full max-w-[280px] md:max-w-[400px] flex justify-center  lg:mt-0">
-
-         
+          <div className="relative w-full max-w-[280px] md:max-w-[400px] flex justify-center max-sm:hidden lg:mt-0">
             <div className="relative z-20 w-full  max-sm:hidden flex justify-center">
               <img
                 src={PLANT1}
                 alt="Indoor Plant"
-                className="w-[200px] md:w-[380px] h-auto -mt-25"
+                className="w-[220px] md:w-[380px] h-auto -mt-25"
               />
             </div>
-
-
-            
           </div>
-
-
              
         </div>
 
