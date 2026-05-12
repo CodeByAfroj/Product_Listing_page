@@ -1,8 +1,8 @@
-# Plant Shop Frontend
+# Plant Listing Platform
 
 A beautiful, responsive e-commerce landing page for a plant shop, built with React and Tailwind CSS. The interface is designed with a dark, modern aesthetic focusing on bringing the freshness of nature into your home and workspace.
 
-## 🌟 Features
+## Features
 
 - **Hero Section**: Engaging banner to welcome visitors.
 - **Trendy Plants**: Showcase of popular plants for desk decoration.
@@ -11,21 +11,21 @@ A beautiful, responsive e-commerce landing page for a plant shop, built with Rea
 - **Best O2 Section**: Highlight of plants that are great for improving indoor air quality.
 - **Responsive Design**: Fully responsive layout that looks great on mobile, tablet, and desktop viewports.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **React 19**: Modern UI component library.
 - **Vite**: Superfast frontend build tool.
 - **Tailwind CSS 4**: Utility-first CSS framework for rapid UI styling.
 - **Lucide React**: Beautiful and consistent icon set.
 
-## 📦 Getting Started
+## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
 - Node.js (v18 or higher recommended)
-- npm, yarn, or pnpm
+- npm
 
 ### Installation
 
@@ -63,7 +63,3 @@ src/
 ├── main.jsx        # Entry point of the React app
 └── index.css       # Global styles and Tailwind directives
 ```
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
