@@ -1,35 +1,6 @@
-// import React from 'react';
-// import HeroSection from './pages/HeroSection';
-// import Navbar from './pages/Navbar';
-// // import { SectionTitle } from './components/SectionTitle';
-// // import { PlantCard } from './components/PlantCard';
-// // import { Footer } from './components/Footer';
-
-// function App() {
-//   return (
-//     <div className="overflow-hidden ">
-//       {/* Background crosshair effect */}
-//       <div className=" opacity-30"></div>
-      
-//       {/* Main Content */}
-//       <div className="">
-//        <Navbar/> 
-        
-//         <main>
-//            <HeroSection/>
-//         </main>
-        
-      
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 
 import React from 'react';
-import Navbar from './pages/Navbar';
+import Navbar from './components/Navbar';
 import { HeroBanner } from './components/HeroBanner';
 import { SectionTitle } from './components/SectionTitle';
 import { PlantCard } from './components/PlantCard';

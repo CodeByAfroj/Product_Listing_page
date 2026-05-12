@@ -37,7 +37,7 @@ const Navbar = () => {
             </button>
 
             {open && (
-              <div className="absolute top-8 left-0 bg-[#111] rounded-lg p-2 min-w-[170px]">
+              <div className="absolute top-8 left-0 bg-[#1B2316] rounded-lg p-2 min-w-[170px]">
                 <a href="#" className="block px-3 py-2 text-white/75 hover:bg-white/10 rounded-md">
                   Indoor Plants
                 </a>
