@@ -46,14 +46,14 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 4. Open your browser and navigate to the local server URL (usually `http://localhost:5173`) to see the application in action.
 
-## 🛠️ Scripts
+## Scripts
 
 - `npm run dev`: Starts the Vite development server.
 - `npm run build`: Builds the app for production to the `dist` folder.
 - `npm run lint`: Runs ESLint to check for code quality and style issues.
 - `npm run preview`: Locally preview the production build.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 src/
