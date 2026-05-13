@@ -18,7 +18,7 @@ const Navbar = () => {
           </h1>
         </div>
 
-        {/* Center Menu */}
+      
         <div className="font-['Indie_Flower'] hidden md:flex items-center gap-8 px-8 py-3 h-[35px]  opacity-75" >
           <a href="#" className="text-white  ">Home</a>
 
