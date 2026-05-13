@@ -9,7 +9,7 @@ export const ReviewCard= ({ name, avatar, review, className = '' }) => {
         xmlns="http://www.w3.org/2000/svg" 
         className="absolute inset-0 z-0 w-full h-full drop-shadow-2xl"
       >
-        {/* Main Card Shape */}
+    
         <path 
           d="M1 80 
              C1 30, 30 1, 80 1 
